@@ -1,0 +1,54 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  background-color: black;
+}
+
+h1 {
+  font-size: 14px;
+}
+
+h2 {
+  font-size: 12px;
+}
+
+.post {
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+}
+
+.post-header {
+  display: flex;
+  padding: 10px;
+}
+
+.post-title {
+  margin-left: 5px;
+}
+
+.post-body {
+  padding: 15px;
+  padding-bottom: 20px;
+}
+
+.icons {
+  position: relative;
+}
+
+.fa-regular, .fa-solid {
+  font-size: 25px;
+}
+
+.fa-solid {
+  position: relative;
+  left: 270px; 
+  top: 15px;
+}
+
+.fa-bookmark {
+  position: absolute;
+  right: 10px;
+}
